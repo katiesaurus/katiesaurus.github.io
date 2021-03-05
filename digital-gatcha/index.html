@@ -1,0 +1,54 @@
+<head>
+  <!--For the complete guide to NES.css, check out https://nostalgic-css.github.io/NES.css/-->
+  <title>Put your page title here. It will show up as the name of the website/tab.</title>
+  <!--This links your index page to your css style sheet.--><link href="style.css" rel="stylesheet" type="text/css" onclick="setWords()">
+  <!--This picks your font family. You can find a complete list of suggested fonts at the NES.css guide.--><link href="https://fonts.googleapis.com/css?family=Press+Start+2P" rel="stylesheet">
+  <!--This links your index to the NES.css styles. You can now input the NES.css styles by name without doing any additional styling on your style.css page.--><link href="https://unpkg.com/nes.css/css/nes.css" rel="stylesheet" />
+
+<!--If you decide to use a different font family, input it below-->
+  <style>
+    html, body, pre, code, kbd, samp {
+        font-family: "Press Start 2P";
+    }
+  </style>
+</head>
+
+<!--If you don't want a navbar, comment this out--><!--But this also shows you how the text colors work!-->
+<nav class="navbar" style="padding: 20px; border-bottom: 3px solid #ccc; margin-bottom: 60px;">
+    <div class="container">
+      <h2 style="margin-bottom: 0;">
+        <a href="https://www.sfzinefest.org/"><span class="nes-text is-primary">Visit SF Zine Fest</a></span> | <a href="https://sfzinefest.square.site/s/shop"><span class="nes-text is-success">Buy SF Zine Fest Merch</a></span> | <a href="https://www.flipcause.com/secure/cause_pdetails/Njg4OQ=="><span class="nes-text is-warning">Donate to SF Zine Fest</span></a> | <a href="https://www.youtube.com/playlist?list=PLOW1hIh8197AC2T4BTT3Abj8IKuB58Uq6"><span class="nes-text is-error">Check Out CYBER FEST</span></a>
+      </h2>
+    </div>
+</nav>
+
+
+
+
+<!--Yay! We've reached the actual contnent!-->
+
+<!--There are a bunch of different container options the NES.css guide. Your containers can be light or dark; have a title or no title; rounded our squared off.--><div class="nes-container with-title">
+     <span class="title">Whatever header you want at the top of your page</span>
+     <p>Maybe you want something else here?</p>
+</div>
+<br>
+<br>
+<div class="nes-container is-dark with-title">
+    <span class="title">Your Prompt:</span>
+      <p><span id="choice1"></span> <span id="choice2"></span> <span id="choice3"></span></p>
+</div>
+<br>
+<div class="nes-container with-title">
+     <span class="title">Button title text!</span>
+     <!--There are mutliple button color options: remove "is primary" for white; change to "is-success" for green; change to "is-warning" for yellow; change to "is-error" for red; change to "is-disabled" for greyed out.--> <!--onclick tells the page what to do when someone clicks the button. The instructions come from script.js--><button class="nes-btn is-primary" onclick="setWords()">New Prompts</button>
+</div>
+<br>
+<div class="nes-container">
+  <!--The balloons are just one of the fun things in NES.css. I thought it was cute.--> <div class="nes-balloon from-left">
+        <p>I'm just a cute talking sprite! Replace me with whatever you want!</p>
+  </div>
+  <br>
+  <!--There are a few sprites included with NES.css and Octocat is one of them. If you want to upload your own asset, let me know--> <i class="nes-octocat animate"></i></a>
+</div>
+
+  <!--This links your index to your javascript code.--> <script  src="./script.js"></script>
