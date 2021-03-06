@@ -18,14 +18,14 @@ function setWords() {
   ];
 
   const choice2 = [
-    "floral",
-    "starry",
-    "plaid",
-    "paisley",
-    "polka dotted",
-    "striped",
-    "animal patterned",
-    "chevron",
+    "alien",
+    "robot",
+    "humanoid",
+    "android",
+    "cyborg",
+    "blob",
+    "creature",
+    "monster",
     "houndstooth",
     "checkered",
     "ombre",
