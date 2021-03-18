@@ -3,7 +3,6 @@ This follows the same rules as Bootstrap. When I get stuck, I look up how to do 
 */
 
 body {
-  background-color: ffabed
   npm install nes.css
   yarn add nes.css
    width: 100%;
@@ -20,6 +19,7 @@ body {
   /* All I'm doing here is adding a bit of space between the "Try Again" button and any element above it.
   */
    margin-top: 2rem;
+   background-color: pink;
 }
 
 /* You can comment out this navbar if you want. I couldn't find a nice clean NES.css navbar, so I cobbled this together.
