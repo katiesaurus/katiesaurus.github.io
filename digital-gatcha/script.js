@@ -36,7 +36,7 @@ function setWords() {
 
    const choice3 = [
      "wearing socks",
-     "blowing bubbles",
+     "with bubbles",
      "with a bow",
      "magician",
      "explorer",
