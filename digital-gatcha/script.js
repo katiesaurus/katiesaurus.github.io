@@ -5,16 +5,19 @@ setWords()
 //double check that your choices are formatted correctly, with a pair of STRAIGHT (not curly) quotation marks and a comma OUTSIDE the quotation marks.
 function setWords() {
   const choice1 = [
-    "red",
-    "orange",
-    "yellow",
-    "green",
+    "cat",
+    "dog",
+    "frog",
+    "rabbit",
     "blue",
-    "indigo",
-    "violent",
+    "polka-dot",
     "pink",
-    "black",
-    "teal",
+    "glamourous",
+    "lazy",
+    "sleepy",
+    "yellow",
+    "sparkly",
+    "unicorn"
   ];
 
   const choice2 = [
@@ -22,25 +25,29 @@ function setWords() {
     "robot",
     "humanoid",
     "android",
-    "cyborg",
+    "demon",
     "blob",
     "creature",
     "monster",
-    "houndstooth",
-    "checkered",
-    "ombre",
+    "isopod",
+    "plant",
+    "dessert"
   ];
 
    const choice3 = [
-     "horror",
-     "terror",
-     "beast",
-     "monster",
-     "creature",
-     "behemoth",
-     "demon",
-     "mutant",
-     "abomination",
+     "wearing socks",
+     "blowing bubbles",
+     "with a bow",
+     "magician",
+     "explorer",
+     "royalty",
+     "trouble maker",
+     "dreamer",
+     "with a hat",
+     "snacking",
+     "artist",
+     "idol",
+     "fighter",
       ];
 
   const randomNumber1 = Math.floor(Math.random() * choice1.length);
